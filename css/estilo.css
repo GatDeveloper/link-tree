@@ -136,3 +136,16 @@ svg:hover{
     transform: scale(1.2);
 
 }
+
+.modoEscuro{
+
+    background-color: black;
+    color: white;
+
+}
+
+.fonteMaior{
+
+    font-size: large;
+
+}
