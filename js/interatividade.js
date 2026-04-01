@@ -1,36 +1,19 @@
 $(function(){
-
-    //ENTRADA 
+    //entrada
     var botoes = $(".botao");
     var titulo = $("h1");
-    var subtitulo = $("#subtitulo");
-    var icones = $("svg");
-    var fundo = $("body");
-
-    //PROCESSAMENTO
-
-     
+    var subtitulo = $("h2");
+    var icones = $(".icones");
+    var background = $("body")
+    //processamento
     titulo.click(()=>{
-    
-        botoes.css( "background-color","black");
-    
-    });    
-
-    
+        botoes.css ('color','black');
+    });
     titulo.dblclick(()=>{
-
-     fundo.html("<h1> Alterado pelo JS </h1>");
-    
+        background.html('<h1>alterado pelo JS</h1>');
     });
-
     subtitulo.click(()=>{
-
-        icones.css("fill","black")
-
-    });
-
-    //SAIDA
-    
-
-
+        icones.css('background-color','red');
+    })
+    //saida
 });
